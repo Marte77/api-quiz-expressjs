@@ -52,6 +52,7 @@ router.get('/get_quiz', function(req, res, next) {
 
         ]
     }
+    res.json(arr)
 
 });
 
